@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello
+  name: hello-canary
   labels:
     app: hello
     track: canary
