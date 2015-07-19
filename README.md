@@ -31,5 +31,5 @@ kubectl create -f hello-canary-svc.yaml
 ```
 
 ```
-kubectl rolling-update hello --image=quay.io/kelseyhightower/hello:2.0.0
+kubectl rolling-update hello --update-period=3s --image=quay.io/kelseyhightower/hello:2.0.0
 ```
