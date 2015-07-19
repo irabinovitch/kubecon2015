@@ -1,6 +1,5 @@
 # Nginx Summit Demo
 
-
 ```
 kubectl run hello \
   --labels="app=hello,track=stable" \
